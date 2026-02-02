@@ -1,0 +1,26 @@
+{
+  "name": "frostty-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot interface for Frostty AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "frostty",
+    "telegram",
+    "bot",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "strip-ansi": "^6.0.1",
+    "telegraf": "^4.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
